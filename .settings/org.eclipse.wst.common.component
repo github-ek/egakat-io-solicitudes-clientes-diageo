@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="egakat-io-solicitudes-clientes-diageo">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/.apt_generated"/>
+        <dependent-module archiveName="egakat-integration-commons-actualizaciones-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-integration-commons-actualizaciones/egakat-integration-commons-actualizaciones">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-core-services-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-core-services/egakat-core-services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-core-data-jpa-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-core-data-jpa/egakat-core-data-jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-core-domain-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-core-domain/egakat-core-domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-core-web-client-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-core-web-client/egakat-core-web-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-integration-commons-actualizaciones-dto-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-integration-commons-actualizaciones-dto/egakat-integration-commons-actualizaciones-dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-integration-commons-mapas-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-integration-commons-mapas/egakat-integration-commons-mapas">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-core-web-api-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-core-web-api/egakat-core-web-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-integration-commons-mapas-dto-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-integration-commons-mapas-dto/egakat-integration-commons-mapas-dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-io-solicitudes-commons-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-io-solicitudes-commons/egakat-io-solicitudes-commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-integration-commons-archivos-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-integration-commons-archivos/egakat-integration-commons-archivos">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-integration-commons-archivos-dto-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-integration-commons-archivos-dto/egakat-integration-commons-archivos-dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-e-connect-config-client-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-e-connect-config-client/egakat-e-connect-config-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-e-connect-config-dto-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-e-connect-config-dto/egakat-e-connect-config-dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-integration-core-files-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-integration-core-files/egakat-integration-core-files">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-e-connect-maestros-client-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-e-connect-maestros-client/egakat-e-connect-maestros-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="egakat-e-connect-maestros-dto-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/egakat-e-connect-maestros-dto/egakat-e-connect-maestros-dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="egakat-io-solicitudes-clientes-diageo"/>
+        <property name="java-output-path" value="/egakat-io-solicitudes-clientes-diageo/target/classes"/>
+    </wb-module>
+</project-modules>

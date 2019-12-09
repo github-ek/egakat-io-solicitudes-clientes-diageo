@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: egakat-io-solicitudes-clientes-diageo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: server.developer
+Implementation-Vendor-Id: com.egakat
+Build-Jdk: 1.8.0_191
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/egakat-io-solicitudes/egakat-io-solicitudes-cliente
+ s-diageo
+Created-By: Maven Integration for Eclipse
+

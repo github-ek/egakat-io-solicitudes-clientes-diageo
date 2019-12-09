@@ -1,0 +1,249 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.egakat.io.clientes.diageo.configuration.JpaConfiguration",
+      "name": "spring.datasource",
+      "sourceMethod": "public com.zaxxer.hikari.HikariDataSource dataSource() ",
+      "type": "com.zaxxer.hikari.HikariDataSource"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cron",
+      "description": "A description for 'cron'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "cron-delay-between-retries",
+      "description": "A description for 'cron-delay-between-retries'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "cron-retries",
+      "description": "A description for 'cron-retries'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "datasource.databaseName",
+      "description": "A description for 'datasource.databaseName'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "datasource.driver",
+      "description": "A description for 'datasource.driver'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "datasource.password",
+      "description": "A description for 'datasource.password'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "datasource.server",
+      "description": "A description for 'datasource.server'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "datasource.username",
+      "description": "A description for 'datasource.username'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "directories.backups",
+      "description": "A description for 'directories.backups'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "directories.errors",
+      "description": "A description for 'directories.errors'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "directories.inputs",
+      "description": "A description for 'directories.inputs'",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.allow-pool-suspension",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.connection-init-sql",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.connection-test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.connection-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.data-source-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.health-check-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.health-check-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.idle-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "deprecated": true,
+      "name": "spring.datasource.initialization-fail-fast",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.initialization-fail-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.isolate-internal-queries",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "deprecated": true,
+      "name": "spring.datasource.jdbc4-connection-test",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.leak-detection-threshold",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.max-lifetime",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.maximum-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.metric-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.minimum-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.pool-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.register-mbeans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "deprecated": true,
+      "name": "spring.datasource.scheduled-executor-service",
+      "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.transaction-isolation",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "spring.datasource.validation-timeout",
+      "type": "java.lang.Long"
+    }
+  ]
+}
